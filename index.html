@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rick and Morty Trivia Game</title>
+
+  <!--  Reset-->
+   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+
+  
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+ 
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- jQuery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ 
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</head>
+
+<!--Google fonts-->
+<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
+ 
+<body >
+
+  <!--Music? I could not get this to work, -->
+  <audio href= "assets/images/Rick and Morty Theme Song [HD].mp3">
+  </audio>
+
+  <div class="image">
+  
+  <div class="container">  
+   
+    <div class="row">
+        <div class="col-sm-12">
+          <h1>Rick and Morty Trivia!</h1>
+          <h2>SHOW ME WHAT YOU GOT!</h2>
+          <p> Answer before the neutrino bomb goes off! 
+            <span id="time"> </span> Seconds</p>
+        </div>
+
+
+          <!-- Scoreboard -->
+        <div class="scoreboard col-sm-3">
+          
+          
+            <div id="results"></div>
+          <br>
+            <button id="submit">Submit to the Universe</button>
+        </div>
+
+          <!-- quiz -->
+        <div class="quiz col-sm-6">
+          <div id="quiz">
+
+          </div>
+        
+      </div>
+    </div>
+</div>
+  
+  
+    
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

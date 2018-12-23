@@ -1,0 +1,112 @@
+body {
+    font-style: oblique;
+    font-family: "Creepster";
+    font-size: 20px;
+    background-image: url("https://pm1.narvii.com/6334/59c0af0ce8295295ca14c843a2cc614dec7cfb10_hq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-color:rgb(82, 10, 82);
+    color: #56b353;
+    
+}
+
+h1 {
+    font-family: "Creepster";font-size: 35px; 
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'East Sea Dokdo';
+    font-size: 30px;
+    color: pink
+}
+
+
+.question {
+    display: block;
+    background-color: rgb(109, 167, 98);
+    color: white;
+   
+    font-size: 25px;
+    padding-left: 5px;
+   
+}
+
+.answers {
+    margin-bottom: 25px;
+    display: block;
+    background-color: rgb(122, 122, 190);
+}
+
+
+
+.quiz {
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+}
+
+.answers label {
+    display: block;
+    background-color: rgb(132, 180, 192);  
+    padding-left: 5px;
+    border-radius: 12px;   
+}
+
+p, #results {
+    
+    font-family: 'Eater';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.scoreboard {
+    font-family: "Arial"; 
+    font-size: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+#submit {
+    font-family: "Creepster";
+    font-size: 22px;
+    
+    background-color: #eeb96e;
+    color: rgb(3, 18, 104);
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: rgb(16, 105, 139);
+    color: red;
+}
+
+/* Media Screen */
+
+@media screen and (max-width:980px) {  
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    float: none;
+    max-width: 100%;
+    }
+}
