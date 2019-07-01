@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //Countdown
-    var countDown = 30;
+    var countDown = 60;
     var quizTimer = setInterval(function () {
       countDown--;
       document.getElementById('time').textContent = countDown;
@@ -12,7 +12,7 @@ $(document).ready(function () {
   
   
     //Times up events 
-    setTimeout(timeUp, 1000 * 30);
+    setTimeout(timeUp, 1000 * 60);
     function timeUp() {
       
       $('body').css('background-image', 'url(./assets/images/world.png)');
