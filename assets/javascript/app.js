@@ -123,7 +123,7 @@ $(document).ready(function () {
         answers: {
           a: "Mr. Poopybutthole",
           b: "Mr. Beauregard",
-          c: "Uncle Ricky",
+          c: "Uncle Nicky",
           d: "Photography Raptor",
         },
         correctAnswer: "a"
