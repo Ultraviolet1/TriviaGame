@@ -149,7 +149,7 @@ $(document).ready(function () {
         correctAnswer: "b"
       },
       {
-        question: "What does Rick turn himself into to avoid going to the Psuchologist with his family?",
+        question: "What does Rick turn himself into to avoid going to the Psychologist with his family?",
         answers: {
           a: "A gaseous being",
           b: "Bird Person",
